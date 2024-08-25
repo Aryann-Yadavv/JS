@@ -21,4 +21,4 @@ console.log(typeof age) // typeof is used to know the type of the input
 
 
 console.log(typeof undefined) // undefined
-console.log(typeof null) //object
+console.log(typeof null) //null is an object as well
