@@ -1,4 +1,4 @@
-console.log(2 > 1); gives true
+console.log(2 > 1); //gives true
 
 //while comparing make sure the datatype of both items being compared is same
 
