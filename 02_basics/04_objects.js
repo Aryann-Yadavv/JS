@@ -102,11 +102,11 @@ const {courseInstructor: constInst} = course
 console.log(constInst);
 
 //JSON 
-{
-    "name" : "aryan",
-    "coursename" : "js",
-    "price" : "free"
-}
+// {
+//     "name" : "aryan",
+//     "coursename" : "js",
+//     "price" : "free"
+// }
 
 [
     {},
