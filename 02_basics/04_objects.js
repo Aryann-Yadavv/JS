@@ -118,4 +118,4 @@ console.log(constInst);
 
 //an object with no name is usually treated as a JSON , where keys are also stored within "", same as values
 
-//JSON are used to call API
+//JSON are used to make API
