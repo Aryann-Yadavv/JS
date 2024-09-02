@@ -79,3 +79,43 @@ console.log(Object.entries(TinderUser)); //gives both keys and values next to th
 
 console.log(TinderUser.hasOwnProperty('isLoggedIn')); //to check whether the object has certain property or word or not, used in large database
 
+
+
+
+//OBJECTS DESTRUCTURING and JSON API
+
+const course = {
+    courseName: "Js",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor} = course /*this is destructuring of objects, so that we don't have to type Course.CourseInstructor everytime we want course instructor, 
+now we can just type and input 'courseInstuctor' and we'll get courseInstructor, rather than course.CourseInstructor*/
+
+console.log(courseInstructor); // O/P - Hitesh
+
+//now for more simplicity, we can shorten it as well, and use it's short version we made to use it, here constInst is short form of courseInstuctor
+
+const {courseInstructor: constInst} = course
+
+console.log(constInst);
+
+//JSON 
+{
+    "name" : "aryan",
+    "coursename" : "js",
+    "price" : "free"
+}
+
+[
+    {},
+    {},
+    {}
+]
+
+//API can also be made in form of arrays of objects as mentioned above
+
+//an object with no name is usually treated as a JSON , where keys are also stored within "", same as values
+
+//JSON are used to call API
