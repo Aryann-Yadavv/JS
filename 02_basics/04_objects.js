@@ -50,4 +50,32 @@ console.log(obj3)
 
 // "===" is a boolen equal sign, to check whether values on rhs and lhs are equal or not, it returns true if equal and false if not equal
 
+//array of objects
+
+const users = [
+    {
+        id: 1,
+        email: "yadav@gmail.com",
+    },
+    {
+        id: 1,
+        email: "yadav@gmail.com",
+    },
+    {
+        id: 1,
+        email: "yadav@gmail.com",
+    }
+]
+
+// array of objects can be made, and to access email of 1st object in the array, do 
+
+console.log(users[1].email );
+
+console.log(TinderUser);
+
+console.log(Object.keys(TinderUser)); //dataype of the output will be an array
+console.log(Object.values(TinderUser)); //gives values
+console.log(Object.entries(TinderUser)); //gives both keys and values next to them
+
+console.log(TinderUser.hasOwnProperty('isLoggedIn')); //to check whether the object has certain property or word or not, used in large database
 
